@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The King's Convoy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+
+<script src="https://kit.fontawesome.com/67239c1e3d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,18 +19,19 @@
         <div class="container">
             <div class="content">
                 <div class="half-1">
-                    <img src="images/praying_hands-removebg-preview.png" alt="">
-
+                    <div class="img">
+                        <img class="hands" src="images/praying_hands_2-removebg-preview.png" alt="">
+                    </div>
                     <div class="bottom">
                         <h3>About us</h3>
-                        <ul>
-                            <li><span class="change">Phone number:</span>0705 593 4968</li>
-                            <li><span class="change"><strong>Address:</strong> The Bridge Church |, 230 Jakpa Rd, opposite Manz Filling Station, Effurun, Warri 330102, Delta</li>
-                            <li><span class="change"><strong>Email:</strong></span><a
-                                    href="https//:www.gmail.com">thekingsconvoy@gmail.com</a></li>
-                            <li><span class="change"><strong>Facebook:</strong></span><a
-                                    href="https://web.facebook.com/thekingsconvoy">The King's Convoy</a></li>
-                        </ul>
+                        <div class="list">
+                            <p><span class="change"><i class="fa-solid fa-phone"></i> 0705 593 4968</p>
+                            <p><span class="change"><i class="fa-solid fa-house"></i> The Bridge Church | 230 Jakpa Rd, opposite Manz Filling Station, Effurun, Warri 330102, Delta</p>
+                            <p><span class="change"><i class="fa-regular fa-envelope"></i></span><a
+                                    href="https://www.gmail.com"> thekingsconvoy@gmail.com</a></p>
+                            <p><span class="change"><strong><i class="fa-brands fa-facebook"></i>  </strong></span><a
+                                    href="https://web.facebook.com/thekingsconvoy">The King's Convoy</a></p>
+                        </div>
                     </div>
                 </div>
                 <div class="half-2">
@@ -41,66 +42,70 @@
 
                     <form action="" class="form-contain">
                         <label for="">Name:</label>
-                        <input type="text">
+                        <input type="text" class="input" placeholder="your name">
                         <label for="">Email:</label>
-                        <input type="email">
+                        <input type="email" class="input" placeholder="your email">
                         <label for="">Phone</label>
-                        <input type="number">
+                        <input type="number" class="input" placeholder="phone number">
                         <select name="select" id="">
                             <option value="">General Inquiry</option>
                             <option value="">Prayer Request</option>
                             <option value="">Volunteer</option>
                             <option value="">Donations</option>
                         </select>
-                        <input type="submit">
+                        <br>
+                        <input type="submit" class="btn">
                     </form>
                 </div>
             </div>
+            
+            
         </div>
     </section>
 
     <footer>
-        <div class="foot-contain">
-            <div class="foot-1">
-                <h4>About The King's Convoy</h4>
-                <p>to inspire a love for Jesus and His Return in the hearts of many through diverse campaigns</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div class="foot-2">
-                <h4>Quick Links</h4>
-                <ul class="foot-link-1">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Campaigns</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="foot-3">
-                <h4>Get involved</h4>
-                <ul class="foot-link-2">
-                    <li><a href="#">Volunteer</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Partner</a></li>
-                    <a href="#"><button class="join">Join us</button></a>
-                </ul>
-
-            </div>
-        </div>
-
-        <div class="foot-4">
-            <h4>Stay Connected</h4>
-            <div class="newsletter">
-                <p>Subscribe to Newsletter</p>
-                <input type="email" placeholder="email">
-            </div>
-        </div>
-
-        <div class="extra">
-            <p class="quote"><em>Even so come Lord Jesus!!!</em></p>
-            <p class="copy">&copy 2025 The King's Convoy. All rights reserved </p>
-            <p>Designed by <strong>Convoy Developers</strong></p>
-        </div>
-    </footer>
+                <div class="foot-contain">
+                    <div class="foot-1">
+                        <img class="logo" src="images/convoy logo.png" alt="">
+                        <h4>About The King's Convoy</h4>
+                        <p>to inspire a love for Jesus and His Return in the hearts of many through diverse campaigns</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div class="foot-2">
+                        <h4>Quick Links</h4>
+                        <ul class="foot-link-1">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Campaigns</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-3">
+                        <h4>Get involved</h4>
+                        <ul class="foot-link-2">
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <a href="#"><button class="join button">Join us</button></a>
+                        </ul>
+        
+                    </div>
+                </div>
+        
+                <div class="foot-4">
+                    <h4>Stay Connected</h4>
+                    <div class="newsletter">
+                        <p>Subscribe to Newsletter</p>
+                        <input type="email" placeholder="email">
+                    </div>
+                </div>
+        
+                <div class="extra">
+                    <p class="quote"><em>Even so come Lord Jesus!!!</em></p>
+                    <p class="copy">&copy 2025 The King's Convoy. All rights reserved </p>
+                    <p>Designed by <strong>Convoy Developers</strong></p>
+                </div>
+            </footer>
 
 
 </body>

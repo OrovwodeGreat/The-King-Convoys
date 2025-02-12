@@ -1,0 +1,57 @@
+/* Base styles (default for all screen sizes) */
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for screens up to 400px */
+@media all and (min-width: 400px) {
+.content{
+    margin: auto 50px;
+}
+  
+}
+
+/* Styles for screens up to 576px */
+@media (min-width: 576px) {
+    .content{
+        margin: auto 130px;
+    }
+  
+}
+
+/* Styles for screens up to 768px */
+@media (min-width: 768px) {
+    .content{
+        margin: auto 230px;
+    }
+  
+}
+
+/* Styles for screens up to 992px */
+@media (min-width: 992px) {
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        margin: auto 150px;
+    }
+  .foot-contain{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Styles for screens up to 1280px */
+@media (min-width: 1280px) {
+    .content{
+        margin: auto 330px;
+    }
+}
+
+/* Styles for screens up to 1440px */
+@media (min-width: 1440px) {
+    .content{
+        margin: auto 380px;
+    }
+}
