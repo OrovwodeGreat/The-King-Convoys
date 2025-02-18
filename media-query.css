@@ -18,6 +18,16 @@ body {
     .content{
         margin: auto 130px;
     }
+
+    .form-contain{
+        margin: 0rem 0.5rem;
+    }
+    .half-2{
+        margin: 5rem 0.1rem;
+    }
+    .custom-select select{
+        width: 260.5px;
+    }
   
 }
 
@@ -25,6 +35,15 @@ body {
 @media (min-width: 768px) {
     .content{
         margin: auto 230px;
+    }
+    .form-contain{
+        margin: 0rem 0.3rem;
+    }
+    .half-2{
+        margin: 5rem 0rem;
+    }
+    .custom-select select{
+        width: 260.5px;
     }
   
 }
@@ -37,6 +56,12 @@ body {
         column-gap: 5rem;
         margin: auto 150px;
     }
+    .form-contain{
+        margin: 0rem 1rem;
+    }
+    .custom-select select{
+        width: 261.5px;
+    }
   .foot-contain{
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -45,7 +70,7 @@ body {
 /* Styles for screens up to 1280px */
 @media (min-width: 1280px) {
     .content{
-        margin: auto 330px;
+        margin: auto 290px;
     }
 }
 

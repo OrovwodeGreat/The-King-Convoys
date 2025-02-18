@@ -10,8 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x.x/css/all.min.css">
 
-<script src="https://kit.fontawesome.com/67239c1e3d.js" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/67239c1e3d.js" 
+crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,10 +26,10 @@
                         <img class="hands" src="images/praying_hands_2-removebg-preview.png" alt="">
                     </div>
                     <div class="bottom">
-                        <h3>About us</h3>
+                        <h1 class="h1">About us</h1>
                         <div class="list">
                             <p><span class="change"><i class="fa-solid fa-phone"></i> 0705 593 4968</p>
-                            <p><span class="change"><i class="fa-solid fa-house"></i> The Bridge Church | 230 Jakpa Rd, opposite Manz Filling Station, Effurun, Warri 330102, Delta</p>
+                            <p><span class="change"><i class="fa-solid fa-house"></i> Lorem ipsum dolor sit amet.</p>
                             <p><span class="change"><i class="fa-regular fa-envelope"></i></span><a
                                     href="https://www.gmail.com"> thekingsconvoy@gmail.com</a></p>
                             <p><span class="change"><strong><i class="fa-brands fa-facebook"></i>  </strong></span><a
@@ -41,18 +44,30 @@
                     </div>
 
                     <form action="" class="form-contain">
-                        <label for="">Name:</label>
-                        <input type="text" class="input" placeholder="your name">
-                        <label for="">Email:</label>
-                        <input type="email" class="input" placeholder="your email">
-                        <label for="">Phone</label>
+                        <div class="icon-group">
+                            <label for=""><i class="fa-solid fa-user-circle"></i>
+                            </label>
+                            <input type="text" class="input" placeholder="your name">
+                        </div>
+
+                        <div class="icon-group"><label for=""><i class="fa-regular fa-envelope"></i></label> <input type="email" class="input" placeholder="your email"></div>
+                       
+                        <div class="icon-group">
+                            <label for=""><i class="fa-solid fa-phone"></i></label>
                         <input type="number" class="input" placeholder="phone number">
-                        <select name="select" id="">
-                            <option value="">General Inquiry</option>
-                            <option value="">Prayer Request</option>
-                            <option value="">Volunteer</option>
-                            <option value="">Donations</option>
-                        </select>
+                        </div>
+                        
+
+                        <div class="custom-select">
+                            <select name="select" id="">
+                            
+                                <option value="">General Inquiry</option>
+                                <option value="">Prayer Request</option>
+                                <option value="">Volunteer</option>
+                                <option value="">Donations</option>
+                            </select>
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </div>
                         <br>
                         <input type="submit" class="btn">
                     </form>
@@ -86,7 +101,7 @@
                             <li><a href="#">Volunteer</a></li>
                             <li><a href="#">Donate</a></li>
                             <li><a href="#">Partner</a></li>
-                            <a href="#"><button class="join button">Join us</button></a>
+                            <a href="#"><button class="join ">Join us</button></a>
                         </ul>
         
                     </div>
@@ -96,7 +111,7 @@
                     <h4>Stay Connected</h4>
                     <div class="newsletter">
                         <p>Subscribe to Newsletter</p>
-                        <input type="email" placeholder="email">
+                        <input class="newsletter" type="email" placeholder="Enter email address">
                     </div>
                 </div>
         
